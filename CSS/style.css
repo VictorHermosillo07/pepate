@@ -4,6 +4,7 @@
     background-color: #1F2229;
     overflow-y: hidden;
     overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
 }
 
 .header {
@@ -11,9 +12,44 @@
     margin: 20px;
     align-items: center;
     width: 100%;
+    margin-bottom: 8vh;
 }
 
 .header img {
     height: 5vh;
     width: auto;
+}
+
+.turn {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 900;
+    color: #1EF2FE;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.cards-text{
+    width: 100%;
+    text-align: center;
+    color: #E8E8F4;
+    font-size: 2.8vh;
+    font-weight: 600;
+}
+
+.cards-img {
+    display: flex;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.cards-img img{
+    margin-left: 20px;
+    margin-right: 20px;
 }
