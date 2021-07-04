@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1F2229;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.header img {
+    height: 5vh;
+    width: auto;
+}
